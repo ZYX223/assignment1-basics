@@ -7,7 +7,7 @@ FIXTURES_PATH = (pathlib.Path(__file__).resolve().parent) / "fixtures"
 
 
 @lru_cache
-def gpt2_bytes_to_unicode() -> dict[int, str]:
+def gpt2_bytes_to_unicode() -> dict[int, str]: 
     """
     Returns a mapping between every possible byte (an integer from 0 to 255) to a
     printable unicode string character representation. This function is taken
