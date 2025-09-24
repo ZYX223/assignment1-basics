@@ -130,7 +130,7 @@ def train_bpe(input_path,vocab_size,special_tokens):
 
     vocab = get_basic_vocab(special_tokens)
     base_vocab_size = len(vocab)
-    n_merges=vocab_size-base_vocab_size
+    n_merges=vocab_size-base_vocab_size 
 
     merges = []
     for i in range(n_merges):
