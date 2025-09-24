@@ -166,4 +166,3 @@ data/owt_valid.txt
 data/TinyStoriesV2-GPT4-train.txt
 data/TinyStoriesV2-GPT4-valid.txt
 .DS_Store
-.gitignore
