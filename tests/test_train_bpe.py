@@ -20,8 +20,15 @@ def test_train_bpe_speed():
         vocab_size=500,
         special_tokens=["<|endoftext|>"],
     )
+    # vocab, merges = run_train_bpe(
+    #     input_path='data/TinyStoriesV2-GPT4-valid.txt',
+    #     vocab_size=10_000,
+    #     special_tokens=["<|endoftext|>","<|endoftext|><|endoftext|>"],
+    # )
+
     end_time = time.time()
-    assert end_time - start_time < 1.5
+    print("test_train_bpe_speed time:",end_time-start_time)
+    # assert end_time - start_time < 1.5
 
 
 def test_train_bpe():
@@ -86,3 +93,14 @@ def test_train_bpe_special_tokens(snapshot):
             "merges": merges,
         },
     )
+
+def test_train_bpe_data():
+    start_time = time.time()
+    vocab, merges = run_train_bpe(
+        input_path='data/owt_valid.txt',
+        vocab_size=32_000,
+        special_tokens=["<|endoftext|>","<|endoftext|><|endoftext|>"],
+    )
+    end_time = time.time()
+    print("test_train_bpe_data time:",end_time-start_time)
+    

@@ -1,0 +1,1233 @@
+vocab:
+  0: "\0"
+  1: "\x01"
+  2: "\x02"
+  3: "\x03"
+  4: "\x04"
+  5: "\x05"
+  6: "\x06"
+  7: "\a"
+  8: "\b"
+  9: "\t"
+  10: '
+
+    '
+  11: "\v"
+  12: "\f"
+  13: "\r"
+  14: "\x0E"
+  15: "\x0F"
+  16: "\x10"
+  17: "\x11"
+  18: "\x12"
+  19: "\x13"
+  20: "\x14"
+  21: "\x15"
+  22: "\x16"
+  23: "\x17"
+  24: "\x18"
+  25: "\x19"
+  26: "\x1A"
+  27: "\e"
+  28: "\x1C"
+  29: "\x1D"
+  30: "\x1E"
+  31: "\x1F"
+  32: ' '
+  33: '!'
+  34: '"'
+  35: '#'
+  36: $
+  37: '%'
+  38: '&'
+  39: ''''
+  40: (
+  41: )
+  42: '*'
+  43: +
+  44: ','
+  45: '-'
+  46: .
+  47: /
+  48: '0'
+  49: '1'
+  50: '2'
+  51: '3'
+  52: '4'
+  53: '5'
+  54: '6'
+  55: '7'
+  56: '8'
+  57: '9'
+  58: ':'
+  59: ;
+  60: <
+  61: '='
+  62: '>'
+  63: '?'
+  64: '@'
+  65: A
+  66: B
+  67: C
+  68: D
+  69: E
+  70: F
+  71: G
+  72: H
+  73: I
+  74: J
+  75: K
+  76: L
+  77: M
+  78: N
+  79: O
+  80: P
+  81: Q
+  82: R
+  83: S
+  84: T
+  85: U
+  86: V
+  87: W
+  88: X
+  89: Y
+  90: Z
+  91: '['
+  92: \
+  93: ']'
+  94: ^
+  95: _
+  96: '`'
+  97: a
+  98: b
+  99: c
+  100: d
+  101: e
+  102: f
+  103: g
+  104: h
+  105: i
+  106: j
+  107: k
+  108: l
+  109: m
+  110: n
+  111: o
+  112: p
+  113: q
+  114: r
+  115: s
+  116: t
+  117: u
+  118: v
+  119: w
+  120: x
+  121: y
+  122: z
+  123: '{'
+  124: '|'
+  125: '}'
+  126: '~'
+  127: "\x7F"
+  128: �
+  129: �
+  130: �
+  131: �
+  132: �
+  133: �
+  134: �
+  135: �
+  136: �
+  137: �
+  138: �
+  139: �
+  140: �
+  141: �
+  142: �
+  143: �
+  144: �
+  145: �
+  146: �
+  147: �
+  148: �
+  149: �
+  150: �
+  151: �
+  152: �
+  153: �
+  154: �
+  155: �
+  156: �
+  157: �
+  158: �
+  159: �
+  160: �
+  161: �
+  162: �
+  163: �
+  164: �
+  165: �
+  166: �
+  167: �
+  168: �
+  169: �
+  170: �
+  171: �
+  172: �
+  173: �
+  174: �
+  175: �
+  176: �
+  177: �
+  178: �
+  179: �
+  180: �
+  181: �
+  182: �
+  183: �
+  184: �
+  185: �
+  186: �
+  187: �
+  188: �
+  189: �
+  190: �
+  191: �
+  192: �
+  193: �
+  194: �
+  195: �
+  196: �
+  197: �
+  198: �
+  199: �
+  200: �
+  201: �
+  202: �
+  203: �
+  204: �
+  205: �
+  206: �
+  207: �
+  208: �
+  209: �
+  210: �
+  211: �
+  212: �
+  213: �
+  214: �
+  215: �
+  216: �
+  217: �
+  218: �
+  219: �
+  220: �
+  221: �
+  222: �
+  223: �
+  224: �
+  225: �
+  226: �
+  227: �
+  228: �
+  229: �
+  230: �
+  231: �
+  232: �
+  233: �
+  234: �
+  235: �
+  236: �
+  237: �
+  238: �
+  239: �
+  240: �
+  241: �
+  242: �
+  243: �
+  244: �
+  245: �
+  246: �
+  247: �
+  248: �
+  249: �
+  250: �
+  251: �
+  252: �
+  253: �
+  254: �
+  255: �
+  256: <|endoftext|>
+  257: ' t'
+  258: ' a'
+  259: he
+  260: in
+  261: ' the'
+  262: re
+  263: ' o'
+  264: ' ,'
+  265: er
+  266: ' s'
+  267: at
+  268: ' .'
+  269: nd
+  270: is
+  271: or
+  272: ' w'
+  273: ' c'
+  274: 'on'
+  275: ' b'
+  276: ' f'
+  277: ou
+  278: it
+  279: en
+  280: es
+  281: ' of'
+  282: ' p'
+  283: ing
+  284: ' in'
+  285: ed
+  286: al
+  287: ' m'
+  288: ' and'
+  289: ' d'
+  290: an
+  291: ar
+  292: ' to'
+  293: om
+  294: ' th'
+  295: ic
+  296: ion
+  297: ' h'
+  298: ' l'
+  299: ' y'
+  300: ' e'
+  301: as
+  302: ot
+  303: il
+  304: ' n'
+  305: ' u'
+  306: ent
+  307: ' be'
+  308: ' &'
+  309: ' is'
+  310: ' you'
+  311: os
+  312: ' re'
+  313: et
+  314: ' for'
+  315: ut
+  316: el
+  317: ' g'
+  318: ay
+  319: st
+  320: ow
+  321: le
+  322: ce
+  323: ad
+  324: ' on'
+  325: ' I'
+  326: ver
+  327: ve
+  328: ' A'
+  329: ur
+  330: ol
+  331: ct
+  332: qu
+  333: ' that'
+  334: im
+  335: all
+  336: am
+  337: ig
+  338: ch
+  339: ation
+  340: ' P'
+  341: ith
+  342: ir
+  343: ' S'
+  344: ' it'
+  345: ' pr'
+  346: ap
+  347: ' sh'
+  348: ' C'
+  349: th
+  350: ' com'
+  351: ' @'
+  352: ' wh'
+  353: -@
+  354: ' are'
+  355: ' @-@'
+  356: nt
+  357: id
+  358: ' with'
+  359: ' al'
+  360: op
+  361: ' us'
+  362: ers
+  363: ' as'
+  364: the
+  365: and
+  366: if
+  367: ord
+  368: od
+  369: ' he'
+  370: ist
+  371: quot
+  372: ment
+  373: ' M'
+  374: ' or'
+  375: ore
+  376: ' G'
+  377: ' fr'
+  378: ill
+  379: res
+  380: ' st'
+  381: ess
+  382: ld
+  383: ' this'
+  384: ' 2'
+  385: art
+  386: ' ;'
+  387: ' L'
+  388: ly
+  389: ain
+  390: ul
+  391: ' de'
+  392: ' con'
+  393: est
+  394: se
+  395: apos
+  396: ag
+  397: ' from'
+  398: ' an'
+  399: ' we'
+  400: ' ('
+  401: '00'
+  402: ter
+  403: ' E'
+  404: em
+  405: ave
+  406: ' not'
+  407: ' )'
+  408: ' 1'
+  409: ' your'
+  410: oc
+  411: ' can'
+  412: ' by'
+  413: ' D'
+  414: ' ne'
+  415: ' v'
+  416: igh
+  417: ich
+  418: ' all'
+  419: ri
+  420: ' up'
+  421: ' r'
+  422: ' W'
+  423: ble
+  424: ' they'
+  425: ' B'
+  426: un
+  427: ' ye'
+  428: ' which'
+  429: ' O'
+  430: ke
+  431: ' wor'
+  432: ' su'
+  433: ' F'
+  434: ' H'
+  435: ' have'
+  436: ate
+  437: ' shall'
+  438: ' ch'
+  439: ect
+  440: ity
+  441: ' sp'
+  442: ress
+  443: ight
+  444: ' will'
+  445: ' comp'
+  446: ort
+  447: ant
+  448: ' &#'
+  449: ive
+  450: are
+  451: ..
+  452: ' ex'
+  453: ' And'
+  454: ' ...'
+  455: ast
+  456: '24'
+  457: ' T'
+  458: ould
+  459: ven
+  460: ' tr'
+  461: ust
+  462: um
+  463: out
+  464: com
+  465: ' unt'
+  466: ' se'
+  467: ft
+  468: ree
+  469: ost
+  470: og
+  471: ish
+  472: ions
+  473: iz
+  474: '124'
+  475: ' unto'
+  476: mer
+  477: ings
+  478: ' ac'
+  479: this
+  480: ated
+  481: ac
+  482: lu
+  483: ere
+  484: ' man'
+  485: for
+  486: ' my'
+  487: ' at'
+  488: ies
+  489: age
+  490: rou
+  491: lo
+  492: ans
+  493: pp
+  494: ind
+  495: ' work'
+  496: here
+  497: fore
+  498: ' sit'
+  499: ' ver'
+merges:
+- !!python/tuple
+  - ' '
+  - t
+- !!python/tuple
+  - ' '
+  - a
+- !!python/tuple
+  - h
+  - e
+- !!python/tuple
+  - i
+  - n
+- !!python/tuple
+  - ' t'
+  - he
+- !!python/tuple
+  - r
+  - e
+- !!python/tuple
+  - ' '
+  - o
+- !!python/tuple
+  - ' '
+  - ','
+- !!python/tuple
+  - e
+  - r
+- !!python/tuple
+  - ' '
+  - s
+- !!python/tuple
+  - a
+  - t
+- !!python/tuple
+  - ' '
+  - .
+- !!python/tuple
+  - n
+  - d
+- !!python/tuple
+  - i
+  - s
+- !!python/tuple
+  - o
+  - r
+- !!python/tuple
+  - ' '
+  - w
+- !!python/tuple
+  - ' '
+  - c
+- !!python/tuple
+  - o
+  - n
+- !!python/tuple
+  - ' '
+  - b
+- !!python/tuple
+  - ' '
+  - f
+- !!python/tuple
+  - o
+  - u
+- !!python/tuple
+  - i
+  - t
+- !!python/tuple
+  - e
+  - n
+- !!python/tuple
+  - e
+  - s
+- !!python/tuple
+  - ' o'
+  - f
+- !!python/tuple
+  - ' '
+  - p
+- !!python/tuple
+  - in
+  - g
+- !!python/tuple
+  - ' '
+  - in
+- !!python/tuple
+  - e
+  - d
+- !!python/tuple
+  - a
+  - l
+- !!python/tuple
+  - ' '
+  - m
+- !!python/tuple
+  - ' a'
+  - nd
+- !!python/tuple
+  - ' '
+  - d
+- !!python/tuple
+  - a
+  - n
+- !!python/tuple
+  - a
+  - r
+- !!python/tuple
+  - ' t'
+  - o
+- !!python/tuple
+  - o
+  - m
+- !!python/tuple
+  - ' t'
+  - h
+- !!python/tuple
+  - i
+  - c
+- !!python/tuple
+  - i
+  - 'on'
+- !!python/tuple
+  - ' '
+  - h
+- !!python/tuple
+  - ' '
+  - l
+- !!python/tuple
+  - ' '
+  - y
+- !!python/tuple
+  - ' '
+  - e
+- !!python/tuple
+  - a
+  - s
+- !!python/tuple
+  - o
+  - t
+- !!python/tuple
+  - i
+  - l
+- !!python/tuple
+  - ' '
+  - n
+- !!python/tuple
+  - ' '
+  - u
+- !!python/tuple
+  - en
+  - t
+- !!python/tuple
+  - ' b'
+  - e
+- !!python/tuple
+  - ' '
+  - '&'
+- !!python/tuple
+  - ' '
+  - is
+- !!python/tuple
+  - ' y'
+  - ou
+- !!python/tuple
+  - o
+  - s
+- !!python/tuple
+  - ' '
+  - re
+- !!python/tuple
+  - e
+  - t
+- !!python/tuple
+  - ' f'
+  - or
+- !!python/tuple
+  - u
+  - t
+- !!python/tuple
+  - e
+  - l
+- !!python/tuple
+  - ' '
+  - g
+- !!python/tuple
+  - a
+  - y
+- !!python/tuple
+  - s
+  - t
+- !!python/tuple
+  - o
+  - w
+- !!python/tuple
+  - l
+  - e
+- !!python/tuple
+  - c
+  - e
+- !!python/tuple
+  - a
+  - d
+- !!python/tuple
+  - ' o'
+  - n
+- !!python/tuple
+  - ' '
+  - I
+- !!python/tuple
+  - v
+  - er
+- !!python/tuple
+  - v
+  - e
+- !!python/tuple
+  - ' '
+  - A
+- !!python/tuple
+  - u
+  - r
+- !!python/tuple
+  - o
+  - l
+- !!python/tuple
+  - c
+  - t
+- !!python/tuple
+  - q
+  - u
+- !!python/tuple
+  - ' th'
+  - at
+- !!python/tuple
+  - i
+  - m
+- !!python/tuple
+  - al
+  - l
+- !!python/tuple
+  - a
+  - m
+- !!python/tuple
+  - i
+  - g
+- !!python/tuple
+  - c
+  - h
+- !!python/tuple
+  - at
+  - ion
+- !!python/tuple
+  - ' '
+  - P
+- !!python/tuple
+  - it
+  - h
+- !!python/tuple
+  - i
+  - r
+- !!python/tuple
+  - ' '
+  - S
+- !!python/tuple
+  - ' '
+  - it
+- !!python/tuple
+  - ' p'
+  - r
+- !!python/tuple
+  - a
+  - p
+- !!python/tuple
+  - ' s'
+  - h
+- !!python/tuple
+  - ' '
+  - C
+- !!python/tuple
+  - t
+  - h
+- !!python/tuple
+  - ' c'
+  - om
+- !!python/tuple
+  - ' '
+  - '@'
+- !!python/tuple
+  - ' w'
+  - h
+- !!python/tuple
+  - '-'
+  - '@'
+- !!python/tuple
+  - ' a'
+  - re
+- !!python/tuple
+  - ' @'
+  - -@
+- !!python/tuple
+  - n
+  - t
+- !!python/tuple
+  - i
+  - d
+- !!python/tuple
+  - ' w'
+  - ith
+- !!python/tuple
+  - ' a'
+  - l
+- !!python/tuple
+  - o
+  - p
+- !!python/tuple
+  - ' u'
+  - s
+- !!python/tuple
+  - er
+  - s
+- !!python/tuple
+  - ' a'
+  - s
+- !!python/tuple
+  - t
+  - he
+- !!python/tuple
+  - a
+  - nd
+- !!python/tuple
+  - i
+  - f
+- !!python/tuple
+  - or
+  - d
+- !!python/tuple
+  - o
+  - d
+- !!python/tuple
+  - ' '
+  - he
+- !!python/tuple
+  - is
+  - t
+- !!python/tuple
+  - qu
+  - ot
+- !!python/tuple
+  - m
+  - ent
+- !!python/tuple
+  - ' '
+  - M
+- !!python/tuple
+  - ' o'
+  - r
+- !!python/tuple
+  - o
+  - re
+- !!python/tuple
+  - ' '
+  - G
+- !!python/tuple
+  - ' f'
+  - r
+- !!python/tuple
+  - il
+  - l
+- !!python/tuple
+  - re
+  - s
+- !!python/tuple
+  - ' s'
+  - t
+- !!python/tuple
+  - es
+  - s
+- !!python/tuple
+  - l
+  - d
+- !!python/tuple
+  - ' th'
+  - is
+- !!python/tuple
+  - ' '
+  - '2'
+- !!python/tuple
+  - ar
+  - t
+- !!python/tuple
+  - ' '
+  - ;
+- !!python/tuple
+  - ' '
+  - L
+- !!python/tuple
+  - l
+  - y
+- !!python/tuple
+  - a
+  - in
+- !!python/tuple
+  - u
+  - l
+- !!python/tuple
+  - ' d'
+  - e
+- !!python/tuple
+  - ' c'
+  - 'on'
+- !!python/tuple
+  - es
+  - t
+- !!python/tuple
+  - s
+  - e
+- !!python/tuple
+  - ap
+  - os
+- !!python/tuple
+  - a
+  - g
+- !!python/tuple
+  - ' fr'
+  - om
+- !!python/tuple
+  - ' a'
+  - n
+- !!python/tuple
+  - ' w'
+  - e
+- !!python/tuple
+  - ' '
+  - (
+- !!python/tuple
+  - '0'
+  - '0'
+- !!python/tuple
+  - t
+  - er
+- !!python/tuple
+  - ' '
+  - E
+- !!python/tuple
+  - e
+  - m
+- !!python/tuple
+  - a
+  - ve
+- !!python/tuple
+  - ' n'
+  - ot
+- !!python/tuple
+  - ' '
+  - )
+- !!python/tuple
+  - ' '
+  - '1'
+- !!python/tuple
+  - ' you'
+  - r
+- !!python/tuple
+  - o
+  - c
+- !!python/tuple
+  - ' c'
+  - an
+- !!python/tuple
+  - ' b'
+  - y
+- !!python/tuple
+  - ' '
+  - D
+- !!python/tuple
+  - ' n'
+  - e
+- !!python/tuple
+  - ' '
+  - v
+- !!python/tuple
+  - ig
+  - h
+- !!python/tuple
+  - ic
+  - h
+- !!python/tuple
+  - ' al'
+  - l
+- !!python/tuple
+  - r
+  - i
+- !!python/tuple
+  - ' u'
+  - p
+- !!python/tuple
+  - ' '
+  - r
+- !!python/tuple
+  - ' '
+  - W
+- !!python/tuple
+  - b
+  - le
+- !!python/tuple
+  - ' the'
+  - y
+- !!python/tuple
+  - ' '
+  - B
+- !!python/tuple
+  - u
+  - n
+- !!python/tuple
+  - ' y'
+  - e
+- !!python/tuple
+  - ' wh'
+  - ich
+- !!python/tuple
+  - ' '
+  - O
+- !!python/tuple
+  - k
+  - e
+- !!python/tuple
+  - ' w'
+  - or
+- !!python/tuple
+  - ' s'
+  - u
+- !!python/tuple
+  - ' '
+  - F
+- !!python/tuple
+  - ' '
+  - H
+- !!python/tuple
+  - ' h'
+  - ave
+- !!python/tuple
+  - at
+  - e
+- !!python/tuple
+  - ' sh'
+  - all
+- !!python/tuple
+  - ' c'
+  - h
+- !!python/tuple
+  - e
+  - ct
+- !!python/tuple
+  - it
+  - y
+- !!python/tuple
+  - ' s'
+  - p
+- !!python/tuple
+  - res
+  - s
+- !!python/tuple
+  - igh
+  - t
+- !!python/tuple
+  - ' w'
+  - ill
+- !!python/tuple
+  - ' com'
+  - p
+- !!python/tuple
+  - or
+  - t
+- !!python/tuple
+  - an
+  - t
+- !!python/tuple
+  - ' &'
+  - '#'
+- !!python/tuple
+  - i
+  - ve
+- !!python/tuple
+  - a
+  - re
+- !!python/tuple
+  - .
+  - .
+- !!python/tuple
+  - ' e'
+  - x
+- !!python/tuple
+  - ' A'
+  - nd
+- !!python/tuple
+  - ' .'
+  - ..
+- !!python/tuple
+  - as
+  - t
+- !!python/tuple
+  - '2'
+  - '4'
+- !!python/tuple
+  - ' '
+  - T
+- !!python/tuple
+  - ou
+  - ld
+- !!python/tuple
+  - v
+  - en
+- !!python/tuple
+  - ' t'
+  - r
+- !!python/tuple
+  - u
+  - st
+- !!python/tuple
+  - u
+  - m
+- !!python/tuple
+  - ou
+  - t
+- !!python/tuple
+  - c
+  - om
+- !!python/tuple
+  - ' u'
+  - nt
+- !!python/tuple
+  - ' s'
+  - e
+- !!python/tuple
+  - f
+  - t
+- !!python/tuple
+  - re
+  - e
+- !!python/tuple
+  - os
+  - t
+- !!python/tuple
+  - o
+  - g
+- !!python/tuple
+  - is
+  - h
+- !!python/tuple
+  - ion
+  - s
+- !!python/tuple
+  - i
+  - z
+- !!python/tuple
+  - '1'
+  - '24'
+- !!python/tuple
+  - ' unt'
+  - o
+- !!python/tuple
+  - m
+  - er
+- !!python/tuple
+  - ing
+  - s
+- !!python/tuple
+  - ' a'
+  - c
+- !!python/tuple
+  - th
+  - is
+- !!python/tuple
+  - at
+  - ed
+- !!python/tuple
+  - a
+  - c
+- !!python/tuple
+  - l
+  - u
+- !!python/tuple
+  - e
+  - re
+- !!python/tuple
+  - ' m'
+  - an
+- !!python/tuple
+  - f
+  - or
+- !!python/tuple
+  - ' m'
+  - y
+- !!python/tuple
+  - ' a'
+  - t
+- !!python/tuple
+  - i
+  - es
+- !!python/tuple
+  - ag
+  - e
+- !!python/tuple
+  - r
+  - ou
+- !!python/tuple
+  - l
+  - o
+- !!python/tuple
+  - an
+  - s
+- !!python/tuple
+  - p
+  - p
+- !!python/tuple
+  - in
+  - d
+- !!python/tuple
+  - ' wor'
+  - k
+- !!python/tuple
+  - he
+  - re
+- !!python/tuple
+  - f
+  - ore
+- !!python/tuple
+  - ' s'
+  - it
+- !!python/tuple
+  - ' '
+  - ver
