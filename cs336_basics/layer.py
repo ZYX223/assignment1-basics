@@ -20,18 +20,20 @@ class Linear(nn.Module):
         return einsum(x , self.weight , "... d_in, d_out d_in -> ... d_out")
     
 class Embedding(nn.Module):
-    def __init__(self, vocab_size: int, d_model: int, device: None, dtype: None) :
+    def __init__(self,
+                num_embeddings,
+                embedding_dim,
+                device=None, dtype=None):
         super().__init__()
-        self.vocab_size = vocab_size
-        self.d_model = d_model
-        factory_kwargs = {'device': device, 'dtype': dtype}
+        self.num_embeddings = num_embeddings
+        self.embedding_dim = embedding_dim
+        factory_kwargs = {'device': device , 'dtype' :dtype}
+ 
+        # weight shape (num_embeddings, embedding_dim)
+        self.weight = nn.Parameter(torch.empty((num_embeddings,embedding_dim), **factory_kwargs))
 
-        # Weights of shape (vocab_size, d_model)
-        self.weight = nn.Parameter(torch.empty((vocab_size, d_model), **factory_kwargs))
-        # Initialize weights using truncated normal
-        std = 1
-        init.trunc_normal_(self.weight, mean=0.0, std=std, a=-3*std, b=3*std)
+        std=1
+        init.trunc_normal_(self.weight, mean=0.0 , std = std ,a=-3*std, b=3*std)
 
-
-    def forward(self, token_ids) :
-        return self.weight[token_ids]
+    def forward(self,token_ids: torch.Tensor) -> torch.Tensor:
+        return self.weight[token_ids] 
