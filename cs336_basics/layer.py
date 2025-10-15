@@ -37,3 +37,35 @@ class Embedding(nn.Module):
 
     def forward(self,token_ids: torch.Tensor) -> torch.Tensor:
         return self.weight[token_ids] 
+    
+
+class RMSNorm(nn.Module):
+    def __init__(self, d_model: int, eps: float = 1e-5, device=None, dtype=None):
+        super().__init__()
+        self.d_model = d_model
+        self.eps = eps
+        factory_kwargs = {'device': device, 'dtype': dtype}
+
+        # Initialize weights to 1
+        self.weight = nn.Parameter(torch.ones(d_model, **factory_kwargs))
+    
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+
+        # Prevent overflow in mean/sqrt calculations
+        in_dtype = x.dtype
+        x = x.to(torch.float32)
+
+        # Perform RMSNorm calculation 
+        
+        # official implementation:
+        # rms = torch.rsqrt(x.pow(2).mean(-1, keepdim=True) + self.eps) 
+        # normalized_x = x * rms
+
+        # our implementation:
+        RMS = (x.pow(2).mean(dim=-1, keepdim=True)+ self.eps).sqrt() 
+        normalized_x = x / RMS
+        
+        results = normalized_x * self.weight # W will automatically broadcast to ..., d_model
+
+        # Return the result in the original dtype
+        return results.to(in_dtype)
