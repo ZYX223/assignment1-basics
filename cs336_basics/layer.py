@@ -17,7 +17,7 @@ class Linear(nn.Module):
         init.trunc_normal_(self.weight, mean=0.0, std=std, a=-3*std, b=3*std)
 
     def forward(self, x) :
-        return einsum(x , self.weight , "... d_in, d_out d_in -> ... d_out")
+        return einsum(x , self.weight , "... d_in, d_out d_in -> ... d_out") # x@self.weght.T
     
 class Embedding(nn.Module):
     def __init__(self,
